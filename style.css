@@ -78,3 +78,22 @@ header ul li a {
   font-size: 1.12em;
   font-weight: 900;
 }
+
+.content .txtBox p {
+  color: rgb(30, 30, 30);
+}
+
+.content .txtBox a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: black;
+  color: white;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.content .txtBox a:hover {
+  background: #12279e;
+}
