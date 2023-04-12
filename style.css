@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Bangers', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section {
@@ -28,7 +32,7 @@ header {
 }
 
 header .samlogo {
-  max-width: 125px;
+  max-width: 95px;
   position: relative;
 }
 
@@ -47,4 +51,30 @@ header ul li a {
   font-weight: 400;
   margin-left: 40px;
   text-decoration: none;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .txtBox {
+  position: relative;
+  max-width: 600px;
+}
+
+.content .txtBox h2 {
+  color: rgb(30, 30, 30);
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.content .txtBox h2 span {
+  color: #12279e;
+  font-size: 1.12em;
+  font-weight: 900;
 }
