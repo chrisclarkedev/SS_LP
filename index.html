@@ -9,6 +9,7 @@
   </head>
   <body>
     <section>
+      <div class="rhombus"></div>
       <header>
         <a href="#"><img src="./images/300.png" class="samlogo" /></a>
         <ul>
@@ -34,12 +35,37 @@
         </div>
       </div>
       <ul class="thumb">
-        <li><img src="./images/thumb1.png" /></li>
-        <li><img src="./images/thumb2.png" /></li>
+        <li>
+          <img
+            src="./images/thumb1.png"
+            onClick="imgSlider('./images/s23ultra-1.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/thumb2.png"
+            onClick="imgSlider('./images/galaxys23+.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/thumb4.png"
+            onClick="imgSlider('./images/thumb1.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/thumb3.png"
+            onClick="imgSlider('./images/thumb1.png')"
+          />
+        </li>
         <!-- <li><img src="./images/thumb5.png" /></li> -->
-        <li><img src="./images/thumb4.png" /></li>
-        <li><img src="./images/thumb3.png" /></li>
       </ul>
     </section>
+    <script type="text/javascript">
+      function imgSlider(anything) {
+        document.querySelector('.samsung').src = anything;
+      }
+    </script>
   </body>
 </html>
