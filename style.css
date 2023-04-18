@@ -43,13 +43,14 @@ header ul {
 
 header ul li {
   list-style: none;
+  letter-spacing: 0.75px;
 }
 
 header ul li a:hover {
   background: #12279e;
   color: white;
-  border-radius: 75%;
-  border-width: 2px 4px;
+  border-radius: 10px 10px 10px 10px;
+  /* border-width: 2px 4px; */
 }
 
 header ul li a {
