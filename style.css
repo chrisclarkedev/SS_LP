@@ -45,6 +45,13 @@ header ul li {
   list-style: none;
 }
 
+header ul li a:hover {
+  background: #12279e;
+  color: white;
+  border-radius: 75%;
+  border-width: 2px 4px;
+}
+
 header ul li a {
   display: inline-block;
   color: #333;
@@ -134,7 +141,7 @@ header ul li a {
   max-width: 125px;
 }
 
-.rhombus {
+.clip {
   position: absolute;
   top: 0px;
   left: 0px;
